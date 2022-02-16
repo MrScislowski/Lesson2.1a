@@ -74,7 +74,6 @@ class StudentTest {
     }
 
     @Test
-    @DisplayName("Odd function")
     void odd() {
         final int NTRIALS = 100;
         for (int i = 0; i < NTRIALS; i++) {
